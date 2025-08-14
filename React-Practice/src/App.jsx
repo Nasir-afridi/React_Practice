@@ -8,8 +8,13 @@ function App() {
     <>
       {/* <First /> */}
       <ChatInput />
-      <ChatMessage message = 'Hello Chatbot'/>
-      <ChatMessage message = 'Hi how can i help you'/>
+      <ChatMessage message = 'Hello Chatbot' sender = 'user'/>
+      <ChatMessage message = 'Hi how can i help you' sender = 'robot'/>
+      <ChatMessage message = 'can you get me today date' sender = 'user'/>
+      <ChatMessage message = 'Today is August 14' sender = 'robot'/> 
+
+
+
     </>
   )
 }

@@ -8,7 +8,8 @@ function App() {
     <>
       {/* <First /> */}
       <ChatInput />
-      <ChatMessage />
+      <ChatMessage message = 'Hello Chatbot'/>
+      <ChatMessage message = 'Hi how can i help you'/>
     </>
   )
 }

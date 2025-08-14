@@ -4,15 +4,6 @@ const ChatMessage = (props) => {
     const message = props.message
     const sender = props.sender
 
-    // if(sender === 'robot') {
-    //     return (
-    //     <div>
-    //         <img src="/robot.png" width={50} alt="" />
-    //         {message}
-    //     </div>
-    //     )
-    // }
-
 
   return (
     <div>

@@ -13,7 +13,7 @@ function App() {
       <ChatMessage message = 'Hi how can i help you' sender = 'robot'/>
       <ChatMessage message = 'can you get me today date' sender = 'user'/>
       <ChatMessage message = 'Today is August 14' sender = 'robot'/> 
-      <Second />
+      {/* <Second /> */}
     </>
   )
 }

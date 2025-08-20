@@ -1,6 +1,6 @@
 import React from 'react'
-import LoginForm from './02-LoginForm';
-import Products from './02-Products';
+import LoginForm from './Lesson-02-LoginFormComp';
+import Products from './Lesson-02-ProductComp-s';
 
 const Second = () => {
   return (
